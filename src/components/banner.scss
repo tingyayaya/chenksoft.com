@@ -1,0 +1,23 @@
+.swiper-bannner {
+  width: 100%;
+  height: 480px;
+}
+.banner-img {
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 480px;
+}
+.swiper-button-next {
+  background-image: url(../images/chevron-right.svg)
+}
+.swiper-button-prev {
+  background-image: url(../images/chevron-left.svg)
+}
+.swiper-button-prev, .swiper-button-next {
+  background-size: 52px 52px; 
+}
+.swiper-bannner {
+  .swiper-pagination-bullet {
+    background: #fff
+  }
+}

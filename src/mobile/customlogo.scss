@@ -1,0 +1,19 @@
+.customlogo-modules {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.4rem 0.28rem;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  li {
+    width: 3.68rem;
+    height: 1.76rem;
+    border: 1px solid #dedede;
+    overflow: hidden;
+    background-size: 124%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.4rem;
+  }
+  
+}

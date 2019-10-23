@@ -1,0 +1,41 @@
+.video-page {
+  width: 1000px;
+  margin: 40px auto;
+  p {
+    font-size: 24px;
+  }
+  .video{
+    li {
+      font-size: 14px;
+      line-height: 40px;
+      border-bottom: 1px solid #dedede;
+      display: flex;
+      justify-content: space-between;
+      &:hover {
+        color: #007bff;
+        cursor: pointer;
+      }
+      a {
+        color: #666666;
+       
+      }
+      .w-icon-right {
+        margin-top: 14px; 
+      }
+    }
+  }
+  .pagination-p {
+    text-align: center;
+  }
+}
+
+.rc-pagination {
+  font-size: 14px;
+  display: inline-block;
+  li {
+    outline:  none;
+  }
+  .rc-pagination-item-active {
+    color: #fff;
+  }
+}

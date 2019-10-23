@@ -1,0 +1,87 @@
+.service-process-moudles {
+  padding: 40px 0;
+  .title {
+    text-align: center;
+    span {
+      font-size: 14px;
+      color: #999999;
+    }
+  }
+  .content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+    position: relative;
+    .step {
+      position: absolute;
+      .round {
+        width: 60px;
+        height: 60px;
+        background-color: #666666;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 3;
+      }
+      h6 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 13px;
+        color: #666;
+        margin-top: 10px;
+      }
+      div {
+        margin: 16px auto;
+      }
+      .round3, .round6 {
+        background-color: #4687E3;
+      }
+    }
+    .step1 {
+      left: 120px;
+      top: 230px;
+      p {
+        text-align: left;
+      }
+      .round1 {
+        background-color: #A4A4A4; 
+      }
+    }
+    .step2 {
+      left: 340px;
+      top: 150px;
+    }
+    .step3 {
+      left: 462px;
+      top: 55px;
+    }
+    .step4 {
+      left: 639px;
+      top: 120px;
+      h6 {
+        position: absolute;
+        left: 30px;
+        top: -50px;
+      }
+      p {
+        position: absolute;
+        left: -34px;
+        top: 110px;
+      }
+    }
+    .step5 {
+      left: 693px;
+      top: 210px;
+    }
+    .step6 {
+      left: 863px;
+      top: 150px;
+    }
+    img {
+      padding: 110px;
+    }
+  }
+}

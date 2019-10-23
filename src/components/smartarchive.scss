@@ -1,0 +1,74 @@
+.smartarchive-moudles {
+ 
+  text-align: center;
+  .title {
+    margin: 40px;
+    h5 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  .session-module {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.background-gray {
+      background: #f8f8f8;
+    }
+    .text {
+      text-align: left;
+      padding: 40px;
+      word-wrap : break-word;
+      white-space:nowrap;
+      h5 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 2;
+        font-size: 14px;
+      }
+    }
+    
+  }
+  &.mobile {
+    width: 100%;
+    .session-module.title-img{
+      img {
+        width: 100%;
+      }
+    }
+    .session-module {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: 100%;
+      }
+      .text {
+        h5 {
+          font-size: 0.5rem;
+        }
+        ul {
+          display: flex;
+          margin: 0;
+          flex-wrap: wrap;
+          li {
+            margin-right: 10px;
+            font-size: 0.28rem;
+          }
+        }
+      }
+    }
+    .title {
+      margin: 0.4rem;
+      h5 {
+        font-size: 0.4rem;
+        margin: 0;
+      }
+      .part-line {
+        display: none;
+      }
+    }
+  }
+}

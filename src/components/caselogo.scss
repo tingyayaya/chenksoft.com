@@ -1,0 +1,54 @@
+.swiper {
+ width: 1000px;
+ margin: 40px auto; 
+ .swiper-container {
+   height: 500px;
+ }
+ .swiper-pagination-bullet {
+    width: 50px;
+    height: 4px;
+    border-radius: 0;
+  }
+  .s-header {
+    text-align: center;
+    color: #444;
+    .s-title {
+      font-size: 32px;
+      line-height: 2;
+    }
+    .s-subtitle {
+      font-size: 18px;
+      color: #666;
+    }
+  }
+  .s-ul {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    height: 400px;
+    .item{
+      font-size: 13px;
+      box-sizing: border-box;
+      color: #444444;
+      border: 1px solid #ededed;
+      padding: 0 20px 20px;
+      margin-bottom: 10px;
+      h4 {
+        margin: 0;
+        font-size: 16px;
+      }
+      p {
+        text-align: left;
+        width: 280px;
+        color: #999;
+        font-weight: 200;
+      }
+     }
+  }
+}
+
+

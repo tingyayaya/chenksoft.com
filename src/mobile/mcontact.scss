@@ -1,0 +1,50 @@
+
+.MContact-modules {
+  .icons {
+    display: inline-block;
+  }
+  .hotline {
+    font-size: 0.52rem;
+    font-weight: bold;
+  }
+  .mcontact-cotent {
+    ul {
+      li {
+        h5 {
+          font-size: 0.32rem;
+          font-weight: normal;
+          margin: 0;
+          padding: 0.4rem 0.2rem;
+          &::before {
+            content: '';
+            display: inline-block;
+            width: 0.08rem;
+            height: 0.34rem;
+            background-color: #1C96DF;
+            vertical-align: bottom;
+            margin-right: 0.2rem;
+          }
+        }
+      }
+    }
+    .table {
+      font-size: 0.26rem;
+      margin-bottom: 0.3rem;
+      th, td {
+        font-weight: normal;
+        word-wrap:break-word;
+        padding: 0.2rem;
+        &:first-child {
+          background-color: #f9f9f9;
+        }
+      }
+      td {
+        &:first-child {
+          width: 2rem;
+        }
+        color: #666;
+      }
+    }
+  }
+  
+}

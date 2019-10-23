@@ -1,0 +1,32 @@
+.session-modules {
+  width: 1100px;
+  margin: 40px auto;
+  height: 400px;
+  .text {
+    margin-top: 40px;
+    width: 540px;
+    display: inline-block;
+    font-size: 14px;
+    .title {
+      font-size: 30px;
+      color: #009fe9;
+    }
+    p{
+      margin: 20px 0;
+    }
+  }
+  img {
+    float: right;
+  }
+  .btn-info {
+    margin-top: 40px;
+    .midwindows {
+      margin-right: 5px;
+      float: left;
+    }
+  }
+    
+ 
+
+  
+}

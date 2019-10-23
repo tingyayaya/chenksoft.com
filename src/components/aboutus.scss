@@ -1,0 +1,64 @@
+.about-us {
+  width: 1100px;
+  text-align: center;
+  margin: 60px auto;
+  color: #777;
+  .s-header {
+    text-align: center;
+    color: #000;
+    .s-title {
+      font-size: 32px;
+      line-height: 2;
+      color: #444;
+    }
+    .s-subtitle {
+      font-size: 18px;
+      color: #666;
+    }
+    .s-subline {
+      width: 88px;
+      height: 6px;
+      background-color: #39A4F9;
+      border-radius: 3px;
+      margin: 40px auto;
+    }
+  }
+  .s-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+    font-size: 16px;
+  }
+  .s-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      display: inline-block;
+      margin-top: 60px;
+     }
+     li+li{
+      margin-left: 80px;
+    }
+  }
+  .s-content {
+    text-align: left;
+    line-height: 1.7;
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 16px;
+    h4{
+      margin: 0;
+      padding: 0;
+      color: #444;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    p {
+      word-break: break-all;
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+  }
+}

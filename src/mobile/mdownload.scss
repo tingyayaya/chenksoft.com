@@ -1,0 +1,53 @@
+
+.mdownload-modules {
+  width: 100%;
+  .m-bg-banner {
+    width: 100%;
+    height: 6.6rem;
+    position: relative;
+  }
+  .mdownload-link {
+    text-align: center;
+    .download-thumb {
+      width: 90%;
+      margin: 0 auto;
+      img{
+        width: 100%;
+        overflow: hidden;
+        margin-top: -0.4rem;
+      }
+    }
+    .link {
+      width: 7.72rem;
+      height: 3.32rem;
+      background-color: #F9F9F9;
+      border: 1px solid #ebebeb;
+      margin: 0.6rem auto;
+      padding: 0.6rem;
+      img {
+        width: 0.64rem;
+        margin-right: 0.1rem;
+      }
+      span {
+        font-size: 0.4rem;
+        color: #c6c6c6;
+        vertical-align: middle;
+      }
+      a {
+        margin-top: 0.4rem;
+        display: block;
+      }
+    }
+    button {
+      width: 4.32rem;
+      height: 0.96rem;
+      font-size: 0.32rem;
+      border-radius: 0.08rem;
+      padding: 0;
+      color: #fff;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
+}

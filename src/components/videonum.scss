@@ -1,0 +1,51 @@
+.video-num {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  .title {
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0;
+    h2 {
+      font-size: 20px;
+      padding: 10px 0;
+    }
+    span {
+      color: #999999;
+      font-size: 14px;
+    }
+  }
+  .video-player {
+    width: 800px;
+    margin: 40px auto;
+    .video-react .video-react-big-play-button {
+      top: 50%;
+      left: 50%;
+      margin-top:-1.5em;
+      margin-left: -1.5rem;
+    }
+  }
+  .video-bottom {
+    padding-top: 20px; 
+    border-top: 1px solid #dedede;
+    display: flex;
+    justify-content: space-between;
+    .next {
+      color: #666;
+      font-size: 14px;
+    }
+    .dowload {
+      padding: 10px 0;
+      a {
+        font-size: 13px;
+      }
+    }
+    .icon-file {
+      margin-right: 10px;
+    }
+    a {
+      color: #666;
+      font-size: 14px;
+    }
+
+  }
+}

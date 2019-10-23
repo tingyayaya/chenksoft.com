@@ -1,0 +1,57 @@
+.MCase-modules {
+  .icons {
+    display: inline-block;
+  }
+  .hotline {
+    font-size: 0.52rem;
+    font-weight: bold;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    li {
+      width: 1.28rem;
+      height: 0.48rem;
+      font-size: 12px;
+      background: rgba(32,32,32, 0.3);
+      text-align: center;
+      line-height: 1.7;
+      border-radius: 0.08rem;
+      border: 1px solid #fff;
+      margin-right: 0.2rem;
+      margin-top: 0.2rem;
+    }
+  }
+  .MCase-logo {
+    background: #F9F9F9;
+  }
+  .MCase-content {
+    .layer1 {
+      margin-bottom: 0;
+      img {
+        vertical-align: middle;
+        margin-right: 0.1rem;
+      }
+      .title {
+        width: 100%;
+        border-bottom: 1px solid #dedede;
+        font-size: 0.32rem;
+        padding: 0.2rem;
+      }
+      .layer2 {
+        border-bottom: 15px solid #f9f9f9;
+        li {
+          width: 50%;
+          padding: 0.2rem;
+          font-size: 0.22rem;
+          color: #666;
+          display: inline-block;
+          overflow: hidden;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+        }
+      }
+    }
+  }
+}

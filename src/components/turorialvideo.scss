@@ -1,0 +1,87 @@
+
+.border-top {
+  border-top: 1px solid #dedede;
+}
+
+.turorial-video {
+  margin-bottom: 20px; 
+  padding:  0 !important; 
+  .title {
+    margin-top:0;
+    text-align: left;
+    .more {
+      float: right;
+      font-size: 12px;
+      color: #009fe9;
+      line-height: 2;
+      cursor: pointer;
+    }
+  }
+  .content.video-content {
+    margin-top: 40px !important; 
+    display: flex;
+    .content-item {
+      width: 460px;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      .title {
+        width: 100%;
+        font-size: 18px;
+        text-align: left;
+        .more {
+          font-size: 13px;
+        }
+      }
+      &.cases {
+        width: 360px;
+        >img {
+          padding: 20px 0 ;
+        }
+      }
+      &:nth-child(1) {
+        margin-right: 160px;
+      }
+      li+li {
+        border-top: 1px dashed #dedede;
+      }
+      li {
+        width: 100%;
+        a {
+          width: 100%;
+          padding: 15px 0;
+          font-size: 14px;
+          color: #666;
+          display: flex;
+          flex-wrap: nowrap;
+          img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border: 1px solid #000;
+          }
+          .text {
+            height: 80px;
+            flex: 1;
+            overflow: hidden;
+            
+            p {
+              font-weight: 500;
+              margin-bottom: 5px;
+              font-size: 14px; 
+              font-weight: bold;
+            }
+            span {
+              font-size: 12px;
+            }
+          }
+          &:hover {
+            text-decoration: none;
+          }
+        }
+    }
+    
+    }
+    
+  }
+}

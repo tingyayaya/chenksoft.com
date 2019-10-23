@@ -1,0 +1,64 @@
+[
+  {
+    "title" : "我是标题",
+    "item": [
+      {
+        "img": "图片ID",
+        "text": [
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          },
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          }
+        ]
+      },
+      {
+        "img": "图片ID",
+        "text": [
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          },
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title" : "我是标题",
+    "item": [
+      {
+        "img": "图片ID",
+        "text": [
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          },
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          }
+        ]
+      },
+      {
+        "img": "图片ID",
+        "text": [
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          },
+          {
+            "subtitle": "小标题",
+            "subcontent": "小内容"
+          }
+        ]
+      }
+    ]
+  }
+]

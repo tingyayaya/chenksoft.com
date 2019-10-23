@@ -1,0 +1,157 @@
+.w-icon { background-image: url(../images/sprite.png) }
+.w-icon-digitization { display: inline-block; 
+              width: 66px;
+              height: 66px;
+              background-position: -252px -372px;
+              vertical-align: middle;
+            }
+.w-icon-douban { display: inline-block; 
+              width: 54px;
+              height: 54px;
+              background-position: -496px -174px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-1 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: 0px -248px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-10 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: 0px -124px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-11 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -124px -124px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-12 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -248px 0px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-2 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -248px -124px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-3 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: 0px 0px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-4 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -124px -248px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-5 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -248px -248px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-6 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -372px 0px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-7 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -372px -124px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-8 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -372px -248px;
+              vertical-align: middle;
+            }
+.w-icon-flowchart-9 { display: inline-block; 
+              width: 120px;
+              height: 120px;
+              background-position: -124px 0px;
+              vertical-align: middle;
+            }
+.w-icon-left_hover { display: inline-block; 
+              width: 12px;
+              height: 12px;
+              background-position: -512px -232px;
+              vertical-align: middle;
+            }
+.w-icon-left { display: inline-block; 
+              width: 12px;
+              height: 12px;
+              background-position: -496px -249px;
+              vertical-align: middle;
+            }
+.w-icon-officework { display: inline-block; 
+              width: 66px;
+              height: 66px;
+              background-position: -392px -372px;
+              vertical-align: middle;
+            }
+.w-icon-pages { display: inline-block; 
+              width: 66px;
+              height: 66px;
+              background-position: -322px -372px;
+              vertical-align: middle;
+            }
+.w-icon-people { display: inline-block; 
+              width: 80px;
+              height: 80px;
+              background-position: -168px -372px;
+              vertical-align: middle;
+            }
+.w-icon-qq { display: inline-block; 
+              width: 54px;
+              height: 54px;
+              background-position: -496px -58px;
+              vertical-align: middle;
+            }
+.w-icon-renren { display: inline-block; 
+              width: 54px;
+              height: 54px;
+              background-position: -496px -116px;
+              vertical-align: middle;
+            }
+.w-icon-right_hover { display: inline-block; 
+              width: 12px;
+              height: 12px;
+              background-position: -496px -232px;
+              vertical-align: middle;
+            }
+.w-icon-right { display: inline-block; 
+              width: 12px;
+              height: 12px;
+              background-position: -528px -232px;
+              vertical-align: middle;
+            }
+.w-icon-vip { display: inline-block; 
+              width: 80px;
+              height: 80px;
+              background-position: -84px -372px;
+              vertical-align: middle;
+            }
+.w-icon-weibo { display: inline-block; 
+              width: 54px;
+              height: 54px;
+              background-position: -496px 0px;
+              vertical-align: middle;
+            }
+.w-icon-weixin { display: inline-block; 
+              width: 80px;
+              height: 80px;
+              background-position: 0px -372px;
+              vertical-align: middle;
+            }

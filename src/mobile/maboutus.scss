@@ -1,0 +1,38 @@
+.MAboutus-modules {
+  .icons {
+    display: inline-block;
+  }
+  .hotline {
+    font-size: 0.52rem;
+    font-weight: bold;
+  }
+  .MAboutus-content {
+    padding: 0.8rem 0.4rem 0;
+    font-size: 0.3rem;
+    color: #444444;
+    line-height: 1.7;
+    text-align: justify;
+    .thumb {
+     display: flex;
+     justify-content: space-around;
+     li {
+       width: 2rem;
+       height: 2rem;
+       img {
+         width: 100%;
+       }
+     }
+    }
+    .text {
+      span {
+        padding: 0.2rem 0;
+        font-weight: bold;
+        display: block;
+      }
+      p {
+        color: #666;
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.mfourpoint-modules {
+  width: 100%;
+  background: #F5F7F9;
+  padding:20px 0;
+  h5 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0.2rem;
+  }
+  .subtitle {
+    font-size: 0.24rem;
+    width: 7.6rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  ul {
+    background: url('~@/images/bg2.png') no-repeat;
+    background-size: 100%;
+    background-position: 0 0.4rem;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 20px;
+    li{
+      border: 1px solid #4A90E2;
+      background-color: #fff;
+      font-size: 0.34rem;
+      color: #3385E6;
+      border-radius: 0.12rem;
+      line-height: 2.6;
+      text-align: center;
+      display: inline-block;
+      padding: 0 50px;
+      margin-bottom: 14px;
+      min-width: 80%;
+      span {
+        font-size: 0.38rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

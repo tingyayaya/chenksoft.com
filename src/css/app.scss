@@ -1,0 +1,79 @@
+@import "./custom.scss";
+@import "~bootstrap/scss/bootstrap";
+@import './variables.scss';
+@import './sprite.css';
+
+html, body {
+  //font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif !important;
+  font-family: "Microsoft YaHei",sans-serif !important;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:0.14rem;
+}
+.part-line {
+  width: 339px;
+  height: 15px;
+  display: inline-block;
+  background: transparent url(
+    ../images/500000134.png) no-repeat; 
+}
+.border-bottom-10 {
+  border-bottom: 10px solid #f8f8f8;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+//手机端背景图片
+.m-bg-banner {
+  width: 100%;
+  position: relative;
+  height: 6.6rem;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  img{
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    padding: 0.4rem;
+    bottom: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    h5 {
+      width: 100%;
+      font-size: 0.52rem;
+      margin-bottom: 0.2rem;
+    }
+    p {
+      width: 100%;
+      margin-bottom: 0.4rem;
+      font-size: 0.28rem;
+    }
+  }
+  .icons {
+    margin-bottom: 0;
+    li {
+      display: inline-block;
+      width: 0.56rem;
+      height: 0.56rem;
+      border: 1px solid #fff;
+      text-align: center;
+      border-radius: 50%;
+      margin-right: 0.32rem;
+      img {
+        height: 0.32rem;
+        margin-top: 0.08rem;
+      }
+    }
+  }
+}

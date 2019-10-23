@@ -1,0 +1,76 @@
+.fourpoint {
+  .title {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    p {
+      font-size: 14px;
+      color: #999;
+      line-height: 1.6;
+      width: 700px;
+      margin: 30px auto;
+    }
+    h2{
+      font-size: 30px;
+      font-weight: 400;
+      color:rgb(32, 151, 243);
+    }
+  }
+  .title::after { 
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #dedede;
+    left: 50%;
+    right: 50%;
+    top: 50px;
+    margin-left: -15px;
+  }
+  .content{
+    width: 1060px !important;
+    padding-bottom: 80px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-flow:row wrap;
+      li {
+        width: 250px;
+      }
+      .blocks {
+        position: relative;
+        text-align: center;
+        height: 136px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        background: #f8f8f8;
+        .text {
+          text-align: left;
+          float: left;
+          font-style: italic;
+          h4{
+            font-size: 17px;
+            font-weight: 400;
+            margin: 10px 0 0;
+            
+          }
+          p{
+            margin: 0;
+            text-align: justify;
+            color: #777;
+            font-size: 13px;
+            line-height: 1.6;
+            span{
+              font-size: 18px;
+              color: rgb(31, 135, 232);
+            }
+          }
+        }
+        img {
+          float: left;
+        }
+      }
+      
+    }
+  }
+}

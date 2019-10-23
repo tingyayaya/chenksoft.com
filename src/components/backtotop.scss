@@ -1,0 +1,23 @@
+
+.suspension-panel {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 1000;
+}
+.fixed-btn{
+  margin: 1rem 0 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 1;
+  color: #909090;
+  background-color: #009fe9;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,.05);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

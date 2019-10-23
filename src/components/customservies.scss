@@ -1,0 +1,111 @@
+.custom-moudles {
+  width: 1100px;
+  margin: 40px auto;
+  .blocks-bg {
+    margin-bottom: 150px;
+    &:last-child{
+      margin-bottom: 80px;
+    }
+    .headerLine {
+      text-align: center;
+      margin: 80px 0;
+      h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+    }
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    .wrapper {
+      box-shadow: 4px 6px 20px #dedede;
+      width: 340px;
+      border-radius: 6px;
+      .text {
+        padding: 30px 20px 20px;
+        .title {
+          font-size: 17px;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        .desc {
+          font-size: 14px;
+          color: #666;
+          text-align: justify;
+        }
+      }
+      .tail {
+        margin: 0 20px 20px;
+        padding-top: 20px; 
+        font-size: 15px;
+        color: #E0E0E0;
+        font-weight: 600;
+        border-top: 1px solid #ececec;
+        img {
+          vertical-align: bottom;
+          margin-right: 6px;
+        }
+      }
+    }
+    .list {
+      li{
+        width: 440px;
+        margin-top: 34px;
+        .title {
+          font-size: 19px;
+          font-weight: 600;
+          .blue {
+            font-family: Arial;
+            font-size: 32px;
+            font-weight: 400;
+            color: #5CA2F7;
+            margin-right: 16px;
+            vertical-align: top;
+          }
+        }
+        .desc {
+          font-size: 14px;
+          color: #666;
+          margin-left: 50px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .flow {
+    width: 100%;
+    height: 200px;
+    background: transparent url('~@/images/custom-flow.svg') no-repeat;
+    background-size: 100%;
+    li {
+      width: 138px;
+      text-align: center;
+      position: relative;
+      img {
+        position: absolute;
+        left: 30%;
+        top: 20px;
+      }
+      p {
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 43%;
+      }
+      &:nth-child(even) {
+        img {
+          top: 122px;
+        }
+      }
+    } 
+    
+  }
+
+}

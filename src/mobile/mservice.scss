@@ -1,0 +1,126 @@
+.mservice-modules {
+  width: 100%;
+  .m-bg-banner {
+    position: relative;
+  }
+  .mservice-character {
+    .content {
+      text-align: center;
+      li{
+        position: relative;
+        text-align: center;
+        border-radius: 0.12rem;
+        overflow: hidden;
+        width: 6.8rem;
+        height: 4.56rem;
+        margin: 0 auto;
+        margin-bottom: 0.28rem;
+        &::before{
+          position: absolute;
+          top:0;
+          left:0;
+          display: block;
+          content: '';
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6)
+        }
+        .text {
+          position: absolute;
+          color: #fff;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          h6 {
+            font-weight: bold;
+            font-size: 0.32rem;
+          }
+          p {
+            font-size: 0.24rem;
+            width: 5.2rem;
+            margin: 0;
+            text-align: justify;
+            
+          }
+        }
+      }
+    }
+  }
+  .mservice-flow {
+    background: #f9f9f9;
+    padding-bottom: 0.1rem;
+    .content {
+      width: 100%;
+      height: 11.32rem;
+      text-align: center;
+      background: transparent url(~@/images/custom-flow2.svg) no-repeat center;
+      background-size: 6.12rem;
+      li {
+        display: inline-block;
+        width: 6.1rem;
+        height: 1.4rem;
+        text-align: center;
+        position: relative;
+        img {
+          position: absolute;
+          top: 0.3rem;
+          width: 0.88rem;
+        }
+        p {
+          width: 100%;
+          font-size: 14px;
+          font-weight: bold;
+          text-align: center;
+          color: #444;
+          line-height: 5;
+        }
+        &:nth-child(even) {
+          img {
+            right: 0.6rem;
+          }
+        }
+        &:nth-child(odd) {
+          img {
+            left: 0.6rem;
+          }
+        }
+      }
+    }
+   
+  }
+  .mservice-teamwork {
+    width: 100%;
+    .content {
+      padding: 0 0.64rem;
+      img {
+        width: 100%;
+      }
+      .list {
+        li{
+          width: 100%;
+          margin-top: 0.8rem;
+          .title {
+            font-size: 0.32rem;
+            font-weight: 600;
+            .blue {
+              font-family: Arial;
+              font-size: 0.52rem;
+              font-weight: 400;
+              color: #5CA2F7;
+              margin-right: 0.32rem;
+              vertical-align: top;
+            }
+          }
+          .desc {
+            font-size: 12px;
+            color: #666;
+            margin-left: 0.88rem;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    
+  }
+  
+}
