@@ -50,7 +50,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@mdi/js": "^3.4.93",
     "@mdi/react": "^1.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "express-session": "^1.15.6",
